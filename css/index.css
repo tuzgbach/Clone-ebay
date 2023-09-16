@@ -1,0 +1,271 @@
+/* Tạo khoảng cách trên và dưới container-xxl */
+.container-xxl {
+  margin-top: 20px; /* Khoảng cách phía trên container */
+  margin-bottom: 20px; /* Khoảng cách phía dưới container */
+  padding: 20px; /* Khoảng cách bên trong container (tùy chọn) */
+}
+
+.nav-link {
+  color: black;
+}
+
+input.form-control {
+  flex-grow: 2; /* Chia sẻ không gian một cách tỷ lệ giữa input và button */
+  border-radius: 25px; /* Bo tròn góc của input */
+  padding: 5px; /* Tăng khoảng cách trong input */
+  font-size: 16px; /* Tăng kích thước chữ */
+}
+
+/* Để làm cho button đẹp hơn */
+button.btn {
+  border-radius: 25px; /* Bo tròn góc của button */
+  padding: 10px 20px; /* Tăng khoảng cách xung quanh nút */
+  font-size: 14px; /* Tăng kích thước chữ */
+  color: black;
+}
+/* Đặt màu chữ cho button */
+.btn-outline-success {
+  color: #fff; /* Màu chữ mặc định */
+  border-color: #ff6600; /* Màu viền mặc định */
+}
+
+/* Đặt màu nền cho button khi hover */
+.btn-outline-success:hover {
+  background-color: #ff0000; /* Màu nền khi hover (màu đỏ) */
+  color: #fff; /* Màu chữ khi hover (trắng) */
+  border-color: #ff0000; /* Màu viền khi hover (màu đỏ) */
+}
+
+/* Đặt font chữ và kích thước chữ cho các phần tử trong nav */
+.navbar-collapse ul.navbar-nav .nav-item .nav-link {
+  font-size: 14px; /* Kích thước chữ */
+  font-family: Arial, sans-serif; /* Font chữ */
+  text-transform: uppercase; /* Chuyển đổi chữ thành in hoa */
+  padding: 5px 15px; /* Khoảng cách giữa các mục trong navbar */
+}
+
+/* Đặt màu chữ cho các mục trong navbar */
+.navbar-collapse ul.navbar-nav .nav-item .nav-link {
+  color: #333; /* Màu chữ */
+}
+
+/* Đặt màu chữ khi hover */
+.navbar-collapse ul.navbar-nav .nav-item .nav-link:hover {
+  color: #ff6600; /* Màu chữ khi hover */
+}
+
+/* Đặt màu nền cho dropdown-menu */
+.dropdown-menu {
+  background-color: #fff; /* Màu nền cho dropdown menu */
+}
+
+/* Đặt màu chữ cho các mục trong dropdown-menu */
+.dropdown-menu .dropdown-item {
+  color: #333; /* Màu chữ cho các mục dropdown */
+}
+
+/* Đặt màu chữ khi hover trong dropdown-menu */
+.dropdown-menu .dropdown-item:hover {
+  background-color: #ff6600; /* Màu nền khi hover */
+  color: #fff; /* Màu chữ khi hover */
+}
+
+/* Đặt màu nền cho ô tìm kiếm */
+.form-control {
+  background-color: #f0f0f0; /* Màu nền cho ô tìm kiếm */
+  color: #333; /* Màu chữ trong ô tìm kiếm */
+}
+
+.banner-homepage {
+  height: 300px; /* Đặt chiều cao của banner */
+  overflow: hidden; /* Ẩn nội dung vượt quá kích thước của banner */
+}
+
+.banner-homepage img {
+  width: 100%; /* Làm cho hình ảnh lấp đầy banner */
+  height: auto; /* Đảm bảo tỷ lệ khung hình bảo toàn */
+}
+
+.banner-homepage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Hiển thị hình ảnh mà không bị biến dạng */
+}
+
+/* Kiểu cho container sản phẩm trên trang Amazon */
+.product-page {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Kiểu cho tiêu đề sản phẩm yêu thích */
+/* Kiểu cho thẻ span */
+.title-product {
+  display: inline-block;
+  background-color: #f30000; /* Màu nền cho span */
+  color: #fff; /* Màu chữ cho span */
+  padding: 5px 10px; /* Khoảng cách bên trong span */
+  border-radius: 3px; /* Góc bo tròn */
+  text-decoration: none; /* Loại bỏ gạch chân cho liên kết trong span */
+  font-weight: bold;
+}
+
+/* Kiểu cho liên kết bên trong span */
+.title-product a {
+  color: #fff; /* Màu chữ cho liên kết */
+  text-decoration: none; /* Loại bỏ gạch chân cho liên kết */
+}
+
+/* Kiểu cho container chứa sản phẩm */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Kiểu cho sản phẩm */
+.product {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 8px;
+  width: calc(25% - 18px); /* Hiệu chỉnh chiều rộng của sản phẩm */
+  box-sizing: border-box;
+}
+
+/* Kiểu cho hình ảnh sản phẩm */
+.product img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Kiểu cho tiêu đề sản phẩm */
+.product h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Kiểu cho mô tả sản phẩm */
+.product .desc a {
+  color: #0d0d0e;
+  text-decoration: none;
+}
+
+/* Kiểu cho số lượng đã mua */
+.product h4 {
+  font-size: 14px;
+  margin: 5px 0;
+  color: #888;
+}
+
+/* Kiểu cho giá sản phẩm */
+.product .price {
+  font-weight: bold;
+  color: #e70c0c;
+}
+
+/* Kiểu cho nút Mua Ngay */
+.product .btn-buy {
+  background-color: #fe003e;
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  font-size: 14px;
+}
+
+.product .btn-buy:hover {
+  background-color: #ff6600;
+}
+
+.fa-star {
+  color: #ffbb00;
+}
+
+/* Kiểu cho footer */
+footer {
+  background-color: #fdebd2 !important;
+  color: #393737;
+  padding: 20px 0;
+}
+
+/* Kiểu cho container */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Kiểu cho nội dung footer */
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/* Kiểu cho logo footer */
+.footer-logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Kiểu cho tên công ty */
+.footer-logo p {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+/* Kiểu cho danh sách liên kết */
+/* Kiểu cho container chứa các danh sách liên kết */
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  color: #131212; /* Màu chữ */
+}
+
+/* Kiểu cho danh sách liên kết */
+.footer-links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+  text-decoration: none;
+  color: #161515; /* Màu chữ liên kết */
+  font-size: 14px;
+}
+
+.footer-links ul li a:hover {
+  text-decoration: underline; /* Hiệu ứng khi di chuột qua liên kết */
+}
+
+/* Khoảng cách giữa các danh sách liên kết */
+.footer-links ul + ul {
+  margin-left: 90px;
+}
+
+/* Kiểu cho mạng xã hội */
+.footer-social a {
+  color: #c91d1d;
+  text-decoration: none;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+/* Kiểu cho phần bản quyền */
+.footer-text {
+  text-align: center;
+}
+
+.footer-text p {
+  margin: 10px 0;
+}

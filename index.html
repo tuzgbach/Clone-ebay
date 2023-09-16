@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/bootstrap-5.3.1-dist/css/bootstrap.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/index.css" />
+  </head>
+  <body>
+    <div class="container-xxl p-1 w-100 m-auto">
+      <ul class="nav justify-content-end" style="font-size: 14px">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">
+            <i class="fa-solid fa-language"></i>English</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <i class="fa-solid fa-language"></i>Vietnames</a
+          >
+        </li>
+      </ul>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <img
+            src="/public/logo.svg"
+            alt="logo"
+            style="width: 100px; height: 50px" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item" style="margin-left: 20px">
+                <a class="nav-link active" aria-current="page" href="#">
+                  Home</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Sản phẩm
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Nhà cửa</a></li>
+                  <li><a class="dropdown-item" href="#"> Phòng ngủ</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Xem thêm ở trang sản phẩm</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Tin tức
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Nhà cửa</a></li>
+                  <li><a class="dropdown-item" href="#"> Phòng ngủ</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Xem thêm ở trang sản phẩm</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Về chúng tôi
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Nhà cửa</a></li>
+                  <li><a class="dropdown-item" href="#"> Phòng ngủ</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Xem thêm ở trang sản phẩm</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form
+              class="d-flex"
+              role="search"
+              style="margin-right: 10%; width: 40%">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Tìm kiếm sản phẩm yêu thích"
+                aria-label="Search" />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+          <ul class="nav justify-content-end" style="font-size: 14px">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                ><i class="fa-solid fa-cart-shopping"></i> Giò hàng</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fa-solid fa-user-plus"></i> Đăng nhập</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Banner -->
+      <div class="banner-homepage">
+        <img src="/images/banner/2.png" alt="banner" />
+      </div>
+
+      <!-- Sản phẩm yêu thích  -->
+      <div class="product-page mt-3 p-2">
+        <div class="product-favoral">
+          <span class="title-product">
+            <a href="#">Chiến dịch yêu thích</a>
+          </span>
+          <div class="products d-flex mt-4">
+            <div class="product">
+              <img src="/images/sp1.jpg" alt="Product 1" />
+              <h3>Sản phẩm mẫu</h3>
+              <span class="desc">
+                <a
+                  >Nồi chiên, nướng, quay không dầu điện tử Tefal FW501815, dung
+                  tích 11L - Hàng chính hãng</a
+                >
+              </span>
+              <h4>
+                <i class="fa-solid fa-basket-shopping"></i> 5000 đã mua
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </h4>
+              <p class="price">100,000đ</p>
+              <button class="btn-buy">Mua ngay</button>
+            </div>
+            <div class="product">
+              <img src="/images/sp2.jpg" alt="Product 1" />
+              <h3>Sản phẩm mẫu</h3>
+              <span class="desc">
+                <a>Máy Cạo Râu Xiaomi Enchen BlackStone 3 - Hàng Nhập Khẩu.</a>
+              </span>
+              <h4>
+                <i class="fa-solid fa-basket-shopping"></i> 5000 đã mua
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </h4>
+              <p class="price">100,000đ</p>
+              <button class="btn-buy">Mua ngay</button>
+            </div>
+            <div class="product">
+              <img src="/images/sp3.jpg" alt="Product 1" />
+              <h3>Sản phẩm mẫu</h3>
+              <span class="desc">
+                <a
+                  >Bình Đun Siêu Tốc 2 lớp Lock&Lock EJK738WHT (1.7 Lít) - Trắng
+                  - Hàng chính hãng.</a
+                >
+              </span>
+              <h4>
+                <i class="fa-solid fa-basket-shopping"></i> 5000 đã mua
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </h4>
+              <p class="price">100,000đ</p>
+              <button class="btn-buy">Mua ngay</button>
+            </div>
+            <div class="product">
+              <img src="/images/sp5.jpg" alt="Product 1" />
+              <h3>Sản phẩm mẫu</h3>
+              <span class="desc">
+                <a
+                  >Ấm Siêu Tốc Inox SUNHOUSE HAPPY TIME HTD1055 (1.5L) - Hàng
+                  Chính Hãng.</a
+                >
+              </span>
+              <h4>
+                <i class="fa-solid fa-basket-shopping"></i> 5000 đã mua
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </h4>
+              <p class="price">100,000đ</p>
+              <button class="btn-buy">Mua ngay</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sản phẩm mới ra mắt -->
+      <div class="product-page mt-3 p-2">
+        <div class="product-favoral">
+          <span class="title-product">
+            <a href="#">Chiến dịch mới ra mắt</a>
+          </span>
+          <div class="products d-flex mt-4">
+            <div class="product">
+              <img src="/images/sp1.jpg" alt="Product 1" />
+              <h3>Sản phẩm mẫu</h3>
+              <span class="desc">
+                <a
+                  >Nồi chiên, nướng, quay không dầu điện tử Tefal FW501815, dung
+                  tích 11L - Hàng chính hãng</a
+                >
+              </span>
+              <h4>
+                <i class="fa-solid fa-basket-shopping"></i> 5000 đã mua
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </h4>
+              <p class="price">100,000đ</p>
+              <button class="btn-buy">Mua ngay</button>
+            </div>
+            <div class="product">
+              <img src="/images/sp2.jpg" alt="Product 1" />
+              <h3>Sản phẩm mẫu</h3>
+              <span class="desc">
+                <a>Máy Cạo Râu Xiaomi Enchen BlackStone 3 - Hàng Nhập Khẩu.</a>
+              </span>
+              <h4>
+                <i class="fa-solid fa-basket-shopping"></i> 5000 đã mua
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </h4>
+              <p class="price">100,000đ</p>
+              <button class="btn-buy">Mua ngay</button>
+            </div>
+            <div class="product">
+              <img src="/images/sp3.jpg" alt="Product 1" />
+              <h3>Sản phẩm mẫu</h3>
+              <span class="desc">
+                <a
+                  >Bình Đun Siêu Tốc 2 lớp Lock&Lock EJK738WHT (1.7 Lít) - Trắng
+                  - Hàng chính hãng.</a
+                >
+              </span>
+              <h4>
+                <i class="fa-solid fa-basket-shopping"></i> 5000 đã mua
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </h4>
+              <p class="price">100,000đ</p>
+              <button class="btn-buy">Mua ngay</button>
+            </div>
+            <div class="product">
+              <img src="/images/sp5.jpg" alt="Product 1" />
+              <h3>Sản phẩm mẫu</h3>
+              <span class="desc">
+                <a
+                  >Ấm Siêu Tốc Inox SUNHOUSE HAPPY TIME HTD1055 (1.5L) - Hàng
+                  Chính Hãng.</a
+                >
+              </span>
+              <h4>
+                <i class="fa-solid fa-basket-shopping"></i> 5000 đã mua
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </h4>
+              <p class="price">100,000đ</p>
+              <button class="btn-buy">Mua ngay</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer class="mt-3">
+        <div class="container">
+          <div class="footer-content">
+            <div class="footer-logo">
+              <img
+                src="/images/logo.svg"
+                alt="Logo"
+                style="width: 100px; height: 50px" />
+              <p>Ebay.com</p>
+            </div>
+            <div class="footer-links d-flex m-3 p-2">
+              <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Sản phẩm</a></li>
+                <li><a href="#">Tin tức</a></li>
+                <li><a href="#">Về chúng tôi</a></li>
+                <li><a href="#">Liên hệ</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Sản phẩm</a></li>
+                <li><a href="#">Tin tức</a></li>
+                <li><a href="#">Về chúng tôi</a></li>
+                <li><a href="#">Liên hệ</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Sản phẩm</a></li>
+                <li><a href="#">Tin tức</a></li>
+                <li><a href="#">Về chúng tôi</a></li>
+                <li><a href="#">Liên hệ</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Sản phẩm</a></li>
+                <li><a href="#">Tin tức</a></li>
+                <li><a href="#">Về chúng tôi</a></li>
+                <li><a href="#">Liên hệ</a></li>
+              </ul>
+            </div>
+            <div class="footer-social">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="footer-text">
+            <p>&copy; 2023 Your Company Name. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="/bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./fontawesome-free-6.4.2-web/js/all.min.js"></script>
+  </body>
+</html>
